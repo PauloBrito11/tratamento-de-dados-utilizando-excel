@@ -44,9 +44,7 @@ Objetivo: tratar um Dataset contendo o nome dos presidentes e seus vices, manten
 
 5 - Dados duplicados;
 
-6 - A coluna "Partido" possui dados inconsistentes.
-
-7 - Arredondando a coluna salários e removendo o status "currency" para evitar possíveis problemas de exportação
+6 - Arredondando a coluna salários e removendo o status "currency" para evitar possíveis problemas de exportação
 
 ## 1: Colunas desnecessárias e/ou irrelevantes
 
@@ -84,7 +82,7 @@ Para resolver esse problema:
 
 Dessa forma, todas as datas passam a ser "abreviadas númericas":
 
-![image](https://github.com/user-attachments/assets/ada86f8a-0202-4900-9fc1-70211e264330)
+![image](https://github.com/user-attachments/assets/24019d02-1dc2-4018-bff2-4322faa412a5)
 
 ## 5: Dados duplicados.
 
@@ -94,9 +92,8 @@ Para remover os dados duplicados, utilizaremos uma funcionalidade do próprio Ex
 
 ![image](https://github.com/user-attachments/assets/9fa1ac5a-77e8-415a-b473-90fc9a86fcea)
 
-## 6: A coluna partido possui dados inconsistentes
 
-## 7: Arredondando a coluna salários e removendo o status "currency" para evitar possíveis problemas de exportação
+## 6: Arredondando a coluna salários e removendo o status "currency" para evitar possíveis problemas de exportação
 
 Basta mudar a tipagem da coluna para "número" e clicar no botão abaixo:
 
