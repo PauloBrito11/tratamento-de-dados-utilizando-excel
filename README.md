@@ -10,7 +10,7 @@ Objetivo: tratar um Dataset contendo o nome dos presidentes e seus vices, manten
 
 | Nome da Coluna inicialmente   | Nome da coluna após a renomeação               | Significado                                                                 |
 |------------------|------------------------|-----------------------------------------------------------------------------|
-| Unnamed: 0       | Índice                 | Índice adicional para identificar a linha, possivelmente redundante.        |
+| Unnamed: 0       | Índice                 | Índice adicional para identificar a linha        |
 | S.No.            | Nº Sequencial          | Número de sequência do presidente na linha do tempo dos mandatos.           |
 | president        | Presidente             | Nome do presidente dos Estados Unidos.                                      |
 | prior            | Cargo Anterior         | Cargo ou posição ocupada pelo presidente antes de assumir a presidência.    |
@@ -34,16 +34,21 @@ Objetivo: tratar um Dataset contendo o nome dos presidentes e seus vices, manten
 
 ### Problemas encontrados nesse dataset:
 
-- A coluna de nomes está com os dados não-padronizados, alguns começam com letra maiúscula e outros com letra minúscula
+- A coluna "Presidente" está com os dados não-padronizados, alguns começam com letra maiúscula e outros com letra minúscula
 - Espaços adicionais na coluna "Vice"
 - Dados incorretos na coluna "Data de criação" e "Data de atualização"
 - Dados duplicados
 
 ## Iniciando o processo
 
-O primeiro passo é renomear as colunas, abaixo estão as mudanças realizadas:
+O primeiro passo é remover as colunas que são inúteis em relação ao objetivo final, desse modo, as colunas removidas serão:
 
-[TABELA AQUI]
+| Nome da coluna              | Significado                                                                 |
+|------------------------------------------|-----------------------------------------------------------------------------|
+|Cargo Anterior         | Cargo ou posição ocupada pelo presidente antes de assumir a presidência.    |
+| Índice                 | Índice adicional para identificar a linha|
+
+
 
 
 
