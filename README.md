@@ -74,6 +74,18 @@ Para resolver esse problema, basta utilizar a função ARRUMAR() ou TRIM()
 
 ## 4: Dados incorretos na coluna "Data de criação" e "Data de atualização";
 
+Os dados não estão consistentes, alguns estão em formato de "data em texto" e outros em datas puramente numéricas:
+
+![image](https://github.com/user-attachments/assets/d7e87cd4-4e74-4628-921d-06ad364c9199)
+
+Para resolver esse problema:
+
+![image](https://github.com/user-attachments/assets/ad3431b4-562f-49e7-aeff-5dfa366869cc)
+
+Dessa forma, todas as datas passam a ser "abreviadas númericas":
+
+![image](https://github.com/user-attachments/assets/ada86f8a-0202-4900-9fc1-70211e264330)
+
 ## 5: Dados duplicados.
 
 Para remover os dados duplicados, utilizaremos uma funcionalidade do próprio Excel chamada "Remover Duplicadas"
@@ -89,12 +101,5 @@ Para remover os dados duplicados, utilizaremos uma funcionalidade do próprio Ex
 Basta mudar a tipagem da coluna para "número" e clicar no botão abaixo:
 
 ![image](https://github.com/user-attachments/assets/df8b2445-460a-4940-a127-f7c80b65a20a)
-
-
-
-
-
-
-
 
 
