@@ -34,19 +34,61 @@ Objetivo: tratar um Dataset contendo o nome dos presidentes e seus vices, manten
 
 ### Problemas encontrados nesse dataset:
 
-- A coluna "Presidente" está com os dados não-padronizados, alguns começam com letra maiúscula e outros com letra minúscula
-- Espaços adicionais na coluna "Vice"
-- Dados incorretos na coluna "Data de criação" e "Data de atualização"
-- Dados duplicados
+1 - Colunas desnecessárias e/ou irrelevantes;
 
-## Iniciando o processo
+2 -  A coluna "Presidente" está com os dados não-padronizados, alguns começam com letra maiúscula e outros com letra minúscula;
+
+3 - Espaços adicionais na coluna "Vice";
+
+4 - Dados incorretos na coluna "Data de criação" e "Data de atualização";
+
+5 - Dados duplicados;
+
+6 - A coluna "Partido" possui dados inconsistentes.
+
+7 - Arredondando a coluna salários e removendo o status "currency" para evitar possíveis problemas de exportação
+
+## 1: Colunas desnecessárias e/ou irrelevantes
 
 O primeiro passo é remover as colunas que são inúteis em relação ao objetivo final, desse modo, as colunas removidas serão:
 
 | Nome da coluna              | Significado                                                                 |
 |------------------------------------------|-----------------------------------------------------------------------------|
-|Cargo Anterior         | Cargo ou posição ocupada pelo presidente antes de assumir a presidência.    |
+| Cargo Anterior         | Cargo ou posição ocupada pelo presidente antes de assumir a presidência.    |
 | Índice                 | Índice adicional para identificar a linha|
+
+
+## 2: A coluna "Presidente" está com os dados não-padronizados, alguns começam com letra maiúscula e outros com letra minúscula;
+
+![image](https://github.com/user-attachments/assets/bb006f48-683c-442c-9d79-ec1e6a277a0f)
+
+Para resolver esse problema, basta utilizar a função PRI.MAIÚSCULA() ou PROPER() , resultado:
+
+![image](https://github.com/user-attachments/assets/47de6076-72cd-4018-b063-187abdf9a251)
+
+## 3: Espaços adicionais na coluna "Vice";
+
+Para resolver esse problema, basta utilizar a função ARRUMAR() ou TRIM() 
+
+![image](https://github.com/user-attachments/assets/7f8ad4be-9c02-4766-a983-9767eb40c1cd)
+
+## 4: Dados incorretos na coluna "Data de criação" e "Data de atualização";
+
+## 5: Dados duplicados.
+
+Para remover os dados duplicados, utilizaremos uma funcionalidade do próprio Excel chamada "Remover Duplicadas"
+
+![image](https://github.com/user-attachments/assets/3a78ae5c-4090-4735-b518-72bfaff5f745)
+
+![image](https://github.com/user-attachments/assets/9fa1ac5a-77e8-415a-b473-90fc9a86fcea)
+
+## 6: A coluna partido possui dados inconsistentes
+
+## 7: Arredondando a coluna salários e removendo o status "currency" para evitar possíveis problemas de exportação
+
+Basta mudar a tipagem da coluna para "número" e clicar no botão abaixo:
+
+![image](https://github.com/user-attachments/assets/df8b2445-460a-4940-a127-f7c80b65a20a)
 
 
 
