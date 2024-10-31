@@ -33,19 +33,34 @@ Objetivo: tratar um Dataset contendo o nome dos presidentes e seus vices, manten
 
 ---
 
-### Problemas encontrados nesse dataset:
+## Problemas Identificados no Dataset
 
-1 - Colunas desnecessárias e/ou irrelevantes;
+### 1. Colunas Desnecessárias ou Irrelevantes
+Algumas colunas não contribuem diretamente para a análise e podem ser removidas para facilitar o processamento de dados.
 
-2 -  A coluna "Presidente" está com os dados não-padronizados, alguns começam com letra maiúscula e outros com letra minúscula;
+### 2. Inconsistência de Capitalização na Coluna "Presidente"
+- A coluna apresenta dados que não seguem um padrão de iniciação, com alguns nomes iniciando com letra maiúscula e outros com letra minúscula.
+- Padronizar a capitalização para garantir uniformidade nos dados.
 
-3 - Espaços adicionais na coluna "Vice";
+### 3. Espaços Adicionais na Coluna "Vice"
+- Espaços em branco indesejados podem prejudicar a análise.
+- Realizar a limpeza desses espaços extras para uniformizar os registros.
 
-4 - Dados incorretos na coluna "Data de criação" e "Data de atualização";
+### 4. Dados Incorretos nas Colunas "Data de Criação" e "Data de Atualização"
+- Algumas datas não estão corretas, possivelmente devido a erros de digitação ou formatação.
+- Verificar e corrigir as datas para garantir a precisão histórica.
 
-5 - Dados duplicados;
+### 5. Registros Duplicados
+- Identificar e remover duplicatas para manter a integridade dos dados e evitar redundâncias.
 
-6 - Arredondando a coluna salários e removendo o status "currency" para evitar possíveis problemas de exportação
+### 6. Ajuste de Formatação na Coluna "Salários"
+- Arredondar os valores de salários para evitar erros de precisão.
+- Remover o status "currency" dessa coluna para facilitar a exportação dos dados.
+
+---
+
+Assim, o dataset estará mais organizado e pronto para análise!
+
 
 ## 1: Colunas desnecessárias e/ou irrelevantes
 
