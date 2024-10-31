@@ -1,6 +1,7 @@
 # Tratamento de dados utilizando Excel
 
-Conjunto de dados utilizado: https://github.com/AlexTheAnalyst/Excel-Tutorial/blob/main/Data%20Cleaning%20Excel%20Tutorial.xlsx
+Conjunto de dados utilizado: 
+https://github.com/AlexTheAnalyst/Excel-Tutorial/blob/main/Data%20Cleaning%20Excel%20Tutorial.xlsx
 
 Objetivo: tratar um Dataset contendo o nome dos presidentes e seus vices, mantendo apenas as informações objetivamente relevantes.
 
