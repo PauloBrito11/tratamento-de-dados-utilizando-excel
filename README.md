@@ -69,7 +69,7 @@ O primeiro passo é remover as colunas que são inúteis em relação ao objetiv
 | Índice                 | Índice adicional para identificar a linha|
 
 
-## 2: A coluna "Presidente" está com os dados não-padronizados, alguns começam com letra maiúscula e outros com letra minúscula;
+## 2: A coluna "Presidente" está com os dados não-padronizados, alguns começam com letra maiúscula e outros com letra minúscula
 
 ![image](https://github.com/user-attachments/assets/bb006f48-683c-442c-9d79-ec1e6a277a0f)
 
@@ -77,13 +77,13 @@ Para resolver esse problema, basta utilizar a função PRI.MAIÚSCULA() ou PROPE
 
 ![image](https://github.com/user-attachments/assets/47de6076-72cd-4018-b063-187abdf9a251)
 
-## 3: Espaços adicionais na coluna "Vice";
+## 3: Espaços adicionais na coluna "Vice"
 
 Para resolver esse problema, basta utilizar a função ARRUMAR() ou TRIM() 
 
 ![image](https://github.com/user-attachments/assets/7f8ad4be-9c02-4766-a983-9767eb40c1cd)
 
-## 4: Dados incorretos na coluna "Data de criação" e "Data de atualização";
+## 4: Dados incorretos na coluna "Data de criação" e "Data de atualização"
 
 Os dados não estão consistentes, alguns estão em formato de "data em texto" e outros em datas puramente numéricas:
 
@@ -93,11 +93,11 @@ Para resolver esse problema:
 
 ![image](https://github.com/user-attachments/assets/ad3431b4-562f-49e7-aeff-5dfa366869cc)
 
-Dessa forma, todas as datas passam a ser "abreviadas númericas":
+Dessa forma, todas as datas passam a ser "abreviadas númericas"
 
 ![image](https://github.com/user-attachments/assets/24019d02-1dc2-4018-bff2-4322faa412a5)
 
-## 5: Dados duplicados.
+## 5: Registros Duplicados
 
 Para remover os dados duplicados, utilizaremos uma funcionalidade do próprio Excel chamada "Remover Duplicadas"
 
@@ -106,7 +106,7 @@ Para remover os dados duplicados, utilizaremos uma funcionalidade do próprio Ex
 ![image](https://github.com/user-attachments/assets/9fa1ac5a-77e8-415a-b473-90fc9a86fcea)
 
 
-## 6: Arredondando a coluna salários e removendo o status "currency" para evitar possíveis problemas de exportação
+## 6: Ajuste de formatação/tipagem na Coluna "Salários"
 
 Basta mudar a tipagem da coluna para "número" e clicar no botão abaixo:
 
