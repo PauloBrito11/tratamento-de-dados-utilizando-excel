@@ -59,9 +59,6 @@ Algumas colunas não contribuem diretamente para a análise e podem ser removida
 
 ---
 
-Assim, o dataset estará mais organizado e pronto para análise!
-
-
 ## 1: Colunas desnecessárias e/ou irrelevantes
 
 O primeiro passo é remover as colunas que são inúteis em relação ao objetivo final, desse modo, as colunas removidas serão:
